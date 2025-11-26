@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body class="bg-black">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+  <div class="container-fluid ">
+    <a class="navbar-brand Text-dark" href="#">CUB CAFE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#order">Food</a>
+        <a class="nav-link" href="#">Reservation</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./imgboot/couros-1.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./imgboot/course-2.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./imgboot/cursor-3.webp" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h1 class="text-center text-light pt-5" id="order">order now!!</h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" >
+        <img src="./imgboot/c-1.webp" class="card-img-top" alt="pancake-photo" loading="lazy">
+        <div class="card-body">
+        <h5 class="card-title">Strawberry pancake</h5>
+        <p class="card-text">Ingredients: Pancakes, Caramel/Maple Syrup, Sliced Strawberries, Nuts , Whipped Cream , Powdered Sugar, Mint Garnish.</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>₹190-</h3>
+          <button class="btn btn-primary" onclick="orderalert()">BUY NOW</button>
+
+        </div>
+      </div>
+    </div>
+     <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" >
+        <img src="./imgboot/c-2.webp" class="card-img-top" alt="toast-photo" loading="lazy">
+        <div class="card-body">
+        <h5 class="card-title">Avocado Egg Toast</h5>
+        <p class="card-text">Ingredients: Whole-grain Toast , Smashed Avocado (or Guacamole), Soft-boiled or Jammy Eggs, Pomegranate Seeds, Red Pepper Flakes, Parsley/Dill Garnish, Salt/Pepper .</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>₹150-</h3>
+          <button class="btn btn-primary" onclick="orderalert()">BUY NOW</button>
+
+        </div>
+      </div>
+    </div> <div class="ccol-sm-12 col-md-6 col-lg-4">
+      <div class="card" >
+        <img src="./imgboot/c-3.webp" class="card-img-top" alt="pancake-photo" loading="lazy">
+        <div class="card-body">
+        <h5 class="card-title">Chocolate pancake</h5>
+        <p class="card-text">Ingredients: Thin Pancakes , Caramel/Maple Syrup , Chocolate Shavings/Crumbles, Chocolate Roll/Cylinder Candies </p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>₹180-</h3>
+          <button class="btn btn-primary" onclick="orderalert()">BUY NOW</button>
+
+        </div>
+      </div>
+    </div> <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" >
+        <img src="./imgboot/zinger.jpg" class="card-img-top" alt="burger-photo" loading="lazy">
+        <div class="card-body">
+        <h5 class="card-title">Zinger Burger</h5>
+        <p class="card-text">Ingredients: Brioche Bun to, Crispy Fried Chicken Fillet, Pickles , Shredded Cabbage/Slaw, Spicy Sauce.</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>₹249-</h3>
+          <button class="btn btn-primary" onclick="orderalert()">BUY NOW</button>
+
+        </div>
+      </div>
+    </div> <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" >
+        <img src="./imgboot/c-5.jpg" class="card-img-top" alt="burger-photo"loading="lazy">
+        <div class="card-body">
+        <h5 class="card-title">Beef Burger</h5>
+        <p class="card-text">Ingredients: Brioche/Potato Bun, Double Beef Patty , Melted Cheese , Lettuce, Tomato Slice, Red Onion, Pickles, French Fries .</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>₹199-</h3>
+          <button class="btn btn-primary" onclick="orderalert()">BUY NOW</button>
+
+        </div>
+      </div>
+    </div><div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" >
+        <img src="./imgboot/smash.jpg" class="card-img-top" alt="burger-photo" loading="lazy">
+        <div class="card-body">
+        <h5 class="card-title">Ultimate Double Smash Cheeseburger</h5>
+        <p class="card-text">Ingredients: Glossy Bun , Double Beef Patty , Melted American/Cheddar Cheese, Signature Sauce , Pickles .</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>₹299-</h3>
+          <button class="btn btn-primary" onclick="orderalert()">BUY NOW</button>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" >
+        <img src="./imgboot/puffs.jpeg" class="card-img-top" alt="puffs-phot" loading="lazy">
+        <div class="card-body">
+        <h5 class="card-title">Egg puffs</h5>
+        <p class="card-text">Ingredients: Puff Pastry, Boiled Egg , Spiced Onion and Tomato Masala , Oil/Butter .</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>₹20-</h3>
+          <button class="btn btn-primary" onclick="orderalert()">BUY NOW</button>
+
+        </div>
+      </div>
+    </div><div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" >
+        <img src="./imgboot/kadak.jpeg" class="card-img-top" alt="tea-photo" loading="lazy">
+        <div class="card-body">
+        <h5 class="card-title">Karak Tea</h5>
+        <p class="card-text">Ingredients: Black Tea Leaves, Evaporated Milk or Whole Milk, Water, Sugar , Spices (Cardamom, Saffron, sometimes Ginger).</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>₹15-</h3>
+          <button class="btn btn-primary" onclick="orderalert()">BUY NOW</button>
+
+        </div>
+      </div>
+    </div><div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" >
+        <img src="./imgboot/lime.jpeg" class="card-img-top" alt="lime-photo" loading="lazy">
+        <div class="card-body">
+        <h5 class="card-title">Fresh Lime</h5>
+        <p class="card-text">Ingredients: Freshly Squeezed Lime Juice, Water , Sugar or Salt , Ice Cubes, Mint Sprig .</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>₹30-</h3>
+          <button class="btn btn-primary" onclick="orderalert()">BUY NOW</button>
+
+        </div>
+      </div>
+    </div>
+     <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" >
+        <img src="./imgboot/capuccino.jpg" class="card-img-top" alt="capuccino-photo" loading="lazy">
+        <div class="card-body">
+        <h5 class="card-title">Cappuccino</h5>
+        <p class="card-text">Ingredients: Espresso Shot, Steamed Milk, Thick Layer of Foamed Milk, Cocoa Powder or Cinnamon .</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>₹80-</h3>
+          <button class="btn btn-primary" onclick="orderalert()">BUY NOW</button>
+
+        </div>
+      </div>
+    </div><div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" >
+        <img src="./imgboot/black-coffee.jpg" class="card-img-top" alt="blac-coffee" loading="lazy">
+        <div class="card-body">
+        <h5 class="card-title">Black coffee</h5>
+        <p class="card-text">Ingredients: Hot Water, Espresso or Ground Coffee , No Milk, No Sugar.</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>₹30-</h3>
+          <button class="btn btn-primary" onclick="orderalert()">BUY NOW</button>
+
+        </div>
+      </div>
+    </div><div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" >
+        <img src="./imgboot/orange-juice.jpg" class="card-img-top" alt="orange-juice" loading="lazy">
+        <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Ingredients: Freshly Squeezed Oranges (Pulp optional), No Added Sugar (Pure Juice), Ice</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+          <h3>₹60-</h3>
+          <button class="btn btn-primary" onclick="orderalert()">BUY NOW</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mb-4">
+       <h1 class="text-center text-white">cub cafe specials</h1>
+  <p class="text-white">"This classic pairing is the epitome of a perfect Kerala tea-time. The flaky, golden layers of the puff, whether stuffed with spicy egg or savory chicken, offer that satisfying crunch and flavor, making it a beloved local snack. And to cut through the richness and heat? A chilled glass of zesty lime juice—sometimes a refreshing Kulukki Sarbath—provides the ultimate tangy and sweet counterpoint. It’s more than just a snack; it's a simple, delicious ritual that truly captures the everyday culinary joy of God's Own Country. If you know, you know!"</p>
+    </div>
+    <div class="col-md-6 mb-5">
+      <h1 class="text-center text-white">burger</h1>
+      <p class="text-white">"This classic pairing is the epitome of a perfect Kerala tea-time. The flaky, golden layers of the puff, whether stuffed with spicy egg or savory chicken, offer that satisfying crunch and flavor, making it a beloved local snack. And to cut through the richness and heat? A chilled glass of zesty lime juice—sometimes a refreshing Kulukki Sarbath—provides the ultimate tangy and sweet counterpoint. It’s more than just a snack; it's a simple, delicious ritual that truly captures the everyday culinary joy of God's Own Country. If you know, you know!"</p>
+      
+    </div>
+    <hr class="line text-white">
+  </div>
+</div>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class=" links d-flex flex-column col-6 ">
+         <div class="social-links d-flex ">
+            <a href="#"><i class="bi bi-whatsapp text-white"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+         <a href="#">Privacy and policy</a>
+      <a href="#"> Terms and Condition</a>
+      <a href="#"> Address: 3rd  floor, Khaleej mall , ponnani, kerela</a>
+      <a href="#">Hours:&nbsp; <span>open</span>&nbsp;&nbsp;Closes 11pm </a>
+      <a href="" class="mb-5">About us</a>
+      <p class="mt-5 copy text-secondary-emphasis">©️ 2025 Cub cafe Company. All rights reserved.</p>
+      </div>
+      <div class="col-6">
+        <div class="ratio ratio-16x9">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15677.542323463349!2d75.99181863955079!3d10.781751700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7b9007c70a0d3%3A0x4331d39c0384a50c!2sCub%20Cafe!5e0!3m2!1sen!2sin!4v1763738026904!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+      </div>
+
+      </div>
+      
+
+
+    </div>
+  </div>
+</footer>
+
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js"></script>
+   <script>
+    function orderalert(){
+      alert("order added to cart");
+    }
+   </script>
+</body>
+</html>
